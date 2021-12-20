@@ -26,10 +26,21 @@ console.log ($(".saveBtn"))
 var saveButton = $(".saveBtn")
 for (var i = 0; i< saveButton.length; i++){
   var btn= saveButton[i] 
-  console.log (btn.id)
+hour9.addEventListener("click",save)
+hour10.addEventListener("click",save)
+hour11.addEventListener("click",save)
+hour13.addEventListener("click",save)
+hour14.addEventListener("click",save)
+hour15.addEventListener("click",save)
+hour16.addEventListener("click",save)
+hour17.addEventListener("click",save)
 }
 
 $(".saveBtn").on("click", function(){
-  textarea = document.getElementById("text");
+ document.getElementById('input').value = textArea 
+  input.innerHTM
+  console.log(input.innerHTML)
+
+
+
 })
-#btn-saveBtn.addEeventListener("click", save);
